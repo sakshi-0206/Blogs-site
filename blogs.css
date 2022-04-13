@@ -1,0 +1,129 @@
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+p{
+  color: #8f8f8f;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat"
+}
+.search{
+  padding: 0 10% 2rem 65%;
+}
+.search-bar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.blog-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Section */
+#title{
+  background-image: url("title-image.webp");
+  background-repeat: no-repeat;
+  background-size: 65% 100%;
+  background-color: #111113;
+  color: #fff;}
+.container-fluid{
+  padding-left: 40%;
+  padding-right: 10%
+}
+.blog-title{
+    text-align: center;
+  }
+@media (max-width: 768px){
+    #title{
+      background-size: 100% 100%;}
+   .container-fluid{
+        padding-left: 30%;
+        padding-right: 2%
+      }
+  .blog-title{
+          text-align: center;}}
+
+/* Blogs Section */
+#Blogs{
+  padding: 4%;
+  text-align: center;
+}
+.Blogs-column{
+  padding: 3% 2%;
+}
+.read-more{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+@media (max-width: 768px){
+  #Blogs{
+    padding: 20%;
+    text-align: center;
+  }}
+
+/* featured-blogs */
+#featured-blogs{
+  background-color: #111113;
+  text-align: center;
+  color: #fff;
+}
+.featured-blogs-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.featured{
+  padding-top: 2%;
+  color: #fff;
+}
+
+  /* Footer */
+  #footer{
+    text-align: center;
+    padding: 5% 5%;
+    background-color: #fff;
+  }
+  .footer-icon{
+    padding: 10px;
+  }
+.footer-p{
+  margin-top: 10px;
+  color: #000;
+}
